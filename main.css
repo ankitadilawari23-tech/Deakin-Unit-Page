@@ -1,28 +1,93 @@
 body {
+    margin: 0;
     font-family: Arial;
 }
 
-.header {
-    background-color: darkcyan;
-    padding: 10px;
-    display: flex;
-    align-items: center;
+/* Top bar */
+.topbar {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-align: right;
 }
 
-.header h1 {
-    margin-left: 10px;
-    color: white;
+.topbar span {
+    margin-left: 20px;
 }
+
+/* Header */
+.header {
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+/* Navigation */
+.nav {
+    background-color: #0b6b6b;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 8px 0;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
 td {
-    padding: 8px;
+    padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
 tr:nth-child(odd) {
-    background-color: #f2f2f2;
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+.footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
