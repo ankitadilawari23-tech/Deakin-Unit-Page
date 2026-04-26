@@ -1,19 +1,15 @@
-
-
-h1 {
-  font-size: 40px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
+body {
+    font-family: Arial;
 }
 
+.header {
+    background-color: darkcyan;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
 
+.header h1 {
+    margin-left: 10px;
+    color: white;
+}
