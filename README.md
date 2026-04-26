@@ -1,5 +1,3 @@
-# Deakin-Unit-Pageupdate by Ashritha
-
 # Deakin-Unit-Page
 
 ## Team Collaboration (Sprint 1)
